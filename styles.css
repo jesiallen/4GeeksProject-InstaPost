@@ -1,0 +1,61 @@
+/*Layout*/
+
+body {background:black}
+
+.post{
+    background: white;
+    display:flexbox;
+    font-family: 'Roboto', sans-serif;
+    
+    width: 50vw;
+    margin: 15vh 25vw;
+}
+.postHeader{
+    display:flex;
+    width: 100%;
+}
+#headI1{
+    margin: 1.8em .5em 1.1em 1.5em;
+}
+#userInfo{
+    margin: 1.1em 0em;
+}
+#headP{
+    margin:0 0 0 1.2em;
+}
+#ellipIcon{
+    margin-top: 1.8em;
+}
+.postImage{
+    width: 100%;
+}
+.iconRow{
+    display:flex;
+    margin: 1em;
+    width:100%;
+}
+#bookmark{
+    margin:0;
+}
+.rightAlign{
+    margin-right: 40px;
+    margin-left:auto;    
+}
+.description{
+    padding-bottom: .5em;
+}
+
+/*Text*/
+
+.bold{
+    font-weight: 500;
+}
+
+h3{
+    font-weight: 700;
+    margin:0 0 0 1em;
+}
+p{
+    font-weight: 400;
+    margin: 1em;
+}
